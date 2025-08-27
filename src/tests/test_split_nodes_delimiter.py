@@ -1,7 +1,7 @@
 import unittest
 
-from textnode import TextNode, TextType
-from split_nodes_delimiter import split_nodes_delimiter
+from src.textnode import TextNode, TextType
+from src.functions.split_nodes_delimiter import split_nodes_delimiter
 
 class TestTextNodeToHTMLNode(unittest.TestCase):
     def test_split_nodes_with_middle_code_block(self):
