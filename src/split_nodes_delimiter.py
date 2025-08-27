@@ -16,6 +16,6 @@ def split_nodes_delimiter(old_nodes: list, delimiter: str, text_type: TextType):
 
 
 if __name__ == "__main__":
-    node = TextNode("`code block` This is text with a `code block` word", TextType.TEXT)
+    node = TextNode("`code block` This is text with a `code block` text", TextType.TEXT)
     new_nodes = split_nodes_delimiter([node], "`", TextType.CODE)
     print(new_nodes)
